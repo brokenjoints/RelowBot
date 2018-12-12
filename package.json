@@ -1,0 +1,11 @@
+{
+  "name": "RelowBot",
+  "version": "0.0.1",
+  "description": "Relow Discord Bot",
+  "main": "bot.js",
+  "author": "brokenjoints",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "request": "2.81.0"
+  }
+}
