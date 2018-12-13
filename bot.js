@@ -23,10 +23,7 @@ client.on('message', message => {
   if (message.content === 'relow tournament') {
     message.channel.send(':fire: there is a tournament in progress\n:information_source: read more in' + message.guild.channels.find(channel => channel.name === "tournament-rules").toString());
   }
-  
-  if (message.content === 'relow info') {
-    message.channel.send('relow info');
-  }
+
 
 });
 
