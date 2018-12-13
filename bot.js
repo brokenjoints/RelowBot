@@ -11,6 +11,9 @@ client.on('guildMemberAdd', member => {
 });
 
 client.on('message', message => {
+  
+  if (message.author.bot) return undefined;
+  
   if (message.content === 'relow help') {
     message.channel.send('__RELOWBOT FUNCTIONS__\n\n**relow key**\n**relow playtest**\n**relow tournament**\n**relow info**');
   }
