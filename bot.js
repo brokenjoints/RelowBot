@@ -6,6 +6,10 @@ client.on('ready', () => {
   client.user.setActivity("relow help");
 });
 
+bot.on('guildMemberAdd', member => {
+    member.guild.channels.get('channelID').send("Welcome" + member.); 
+});
+
 client.on('message', message => {
   if (message.content === 'relow help') {
     message.channel.send('__RELOWBOT FUNCTIONS__\n\n**relow key**\n**relow playtest**\n**relow tournament**\n**relow info**');
@@ -18,6 +22,10 @@ client.on('message', message => {
   }
   if (message.content === 'relow tournament') {
     message.channel.send(':fire: there is a tournament in progress\n:information_source: read more in' + message.guild.channels.find(channel => channel.name === "tournament-rules").toString());
+  }
+  
+  if (message.content === 'relow info') {
+    message.author.send('test');
   }
 
 });
