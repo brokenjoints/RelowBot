@@ -25,7 +25,7 @@ client.on('message', message => {
   }
   
   if (message.content === 'relow info') {
-    message.author.send('test');
+    message.channel.send('relow info');
   }
 
 });
