@@ -6,6 +6,10 @@ client.on('ready', () => {
   client.user.setActivity("relow help");
 });
 
+client.on('guildMemberAdd', member => {
+    member.user.send("Welcome"); 
+});
+
 client.on('message', message => {
   if (message.content === 'relow help') {
     message.channel.send('__RELOWBOT FUNCTIONS__\n\n**relow key**\n**relow playtest**\n**relow tournament**\n**relow info**');
