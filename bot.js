@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if (message.content === 'relow help') {
-    message.channel.send('These are my funcions:');
+    message.channel.send('__RELOWBOT__\n\**relow key**\n**relow alpha**\n**relow tournament**\n**relow info**');
   }
   if (message.content === 'relow key') {
     message.channel.send('I will never give you a key');
