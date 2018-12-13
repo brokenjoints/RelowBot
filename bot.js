@@ -6,6 +6,14 @@ client.on('ready', () => {
   client.user.setActivity("relow help");
 });
 
+client.on('guildMemberAdd', async member => {
+	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
+	if (!channel) return;
+  
+  message.channel.send('' + member.displayName);
+  
+}
+
 client.on('message', message => {
   if (message.content === 'relow help') {
     message.channel.send('__RELOWBOT FUNCTIONS__\n\n**relow key**\n**relow playtest**\n**relow tournament**\n**relow info**');
