@@ -6,13 +6,9 @@ client.on('ready', () => {
   client.user.setActivity("relow help");
 });
 
-client.on('guildMemberAdd', async member => {
-	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
-	if (!channel) return;
-  
-  message.channel.send('' + member.displayName);
-  
-}
+bot.on('guildMemberAdd', member => {
+    member.guild.channels.get('' + message.guild.channels.find(channel => channel.name === "joined").toString()).send("Welcome"); 
+});
 
 client.on('message', message => {
   if (message.content === 'relow help') {
