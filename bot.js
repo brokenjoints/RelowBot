@@ -13,7 +13,7 @@ client.on('message', message => {
     message.channel.send('I will never give you a key');
   }
   if (message.content === 'relow playtest') {
-    message.channel.send(':video_game: there is no playtest at the moment\nturn on notification of #playtest-schedule');
+    message.channel.send(':video_game: there is no playtest at the moment\n:bell: turn on notification of #playtest-schedule');
   }
 
 });
