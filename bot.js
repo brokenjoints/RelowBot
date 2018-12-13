@@ -7,10 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if (message.content === 'relow help') {
-    message.channel.send('__RELOWBOT__\n\**relow key**\n**relow alpha**\n**relow tournament**\n**relow info**');
+    message.channel.send('__RELOWBOT__\n\**relow key**\n**relow playtest**\n**relow tournament**\n**relow info**');
   }
   if (message.content === 'relow key') {
     message.channel.send('I will never give you a key');
+  }
+  if (message.content === 'relow playtest') {
+    message.channel.send('there is no playtest at the moment\nturn on notification of #playtest-schedule');
   }
 
 });
