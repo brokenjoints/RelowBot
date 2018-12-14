@@ -26,7 +26,9 @@ client.on('message', message => {
   if (message.content === 'relow tournament') {
     message.channel.send(':fire: there is a tournament in progress\n:information_source: read more in' + message.guild.channels.find(channel => channel.name === "tournament-rules").toString());
   }
-
+if (message.content === 'relow join') {
+  message.channel.send('**👋 Welcome on board!**\n\nℹ️__SOME QUICK INFO__\n\n🎲 discover my functions with **relow help**\n **alpha key** will be sent by giveaway or before a playtest\n🎮 the next **playtest** will be in January\n🏆 waiting for the alpha playtest there’s a **tournament** in progress');
+}
 
 });
 
