@@ -24,7 +24,7 @@ client.on('message', message => {
     message.channel.send('**RELOW PLAYTEST**\n\n__WHEN__\n🎮 there’s no playtest planned at the moment\n 🎮 playtests will be announced in #playtest-schedule, *more or less the next playtest will be in January*\n\n__WHAT IS A PLAYTEST__\n🎮 is a opportunity for you to test Relow for free and help the development before the release of the game\n\n__HOW TO PARTICIPATE__\n🎮 to participate in a playtest you need a key\n\nsee also: **relow key**');
   }
   if (message.content === 'relow tournament' || message.content === 'Relow tournament') {
-    message.channel.send(':fire: there is a tournament in progress\n:information_source: read more in' + message.guild.channels.find(channel => channel.name === "tournament-rules").toString());
+    message.channel.send('**RELOW TOURNAMENT**\n\n🏆 there’s a tournament in progress (more info on #tournament-rules)');
   }
   if(message.content === 'relow info' || message.content === 'Relow info') {
     message.channel.send('work in progress');
