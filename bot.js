@@ -18,7 +18,7 @@ client.on('message', message => {
     message.channel.send('__RELOWBOT FUNCTIONS__\n\n**relow key**\n**relow playtest**\n**relow tournament**\n**relow info**');
   }
   if (message.content === 'relow key') {
-    message.channel.send('**RELOW KEY**\n\n__**HOW TO RECEIVE A KEY**__\n🔑 giveaways on Discord and Twitter\n🔑 write **relow sign up** on #alpha-key *but only when a playtest is near and after we announced that alpha sign up is open*\n🔑 **relow partners** spread keys through their streams or videos\n\n__**HOW TO REDEEM A KEY**__\nclick the button in the bottom left corner **+ ADD GAME...**\n**activate a product on Steam**\nfollow the prompts and paste the key code\n\nsee also:\n**relow playtest**');
+    message.channel.send('**RELOW KEY**\n\n__HOW TO RECEIVE A KEY__\n🔑 giveaways on Discord and Twitter\n🔑 write **relow sign up** on #alpha-key *but only when a playtest is near and after we announced that alpha sign up is open*\n🔑 **relow partners** spread keys through their streams or videos\n\n__HOW TO REDEEM A KEY__\nclick the button in the bottom left corner **+ ADD GAME...**\n**activate a product on Steam**\nfollow the prompts and paste the key code\n\nsee also:\n**relow playtest**');
   }
   if (message.content === 'relow playtest') {
     message.channel.send(':video_game: there is no playtest at the moment\n:bell: playtests will be announced in '+ message.guild.channels.find(channel => channel.name === "playtest-schedule").toString());
