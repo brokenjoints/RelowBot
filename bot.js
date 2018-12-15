@@ -30,7 +30,7 @@ client.on('message', message => {
     message.channel.send('work in progress');
   }
 if (message.content === 'relow join') {
-  message.author.send('**👋 Welcome on board!**\n\nℹ️__SOME QUICK INFO__\n\n🎲 discover my functions with **relow help**\n🔑 **alpha key** will be sent by giveaway or before a playtest\n🎮 the next **playtest** will be in January\n🏆 waiting for the alpha playtest there’s a **tournament** in progress\n🤖 I’m a bot so don’t reply me');
+  message.author.send('**👋 Welcome on board!**\n\nℹ️ __QUICK INFO__\n\n🎲 discover my functions with **relow help**\n🔑 **alpha key** will be sent by giveaway or before a playtest\n🎮 the next **playtest** will be in January\n🏆 waiting for the alpha playtest there’s a **tournament** in progress\n🤖 I’m a bot so don’t reply me');
 }
 
 });
