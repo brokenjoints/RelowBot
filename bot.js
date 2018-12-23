@@ -28,13 +28,13 @@ client.on('message', message => {
                          + "**relow price**\n\n"
                          + "__RELOW WORLD CUP__\n"
                          + "**relow cup**\n\n"
-                         + "__RELOW LINKS__"
-                         + "**steam**"
-                         + "**discord**"
-                         + "**twitter**"
-                         + "**youtubr**"
-                         + "**indieDB**"
-                         + "**gamejolt**"
+                         + "__RELOW LINKS__\n"
+                         + "**steam**\n"
+                         + "**discord**\n"
+                         + "**twitter**\n"
+                         + "**youtubr**\n"
+                         + "**indieDB**\n"
+                         + "**gamejolt**\n"
                          + "**instagram**");
   }
   if (message.content === 'relow key' || message.content === 'Relow key') {
