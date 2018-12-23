@@ -31,7 +31,7 @@ client.on('message', message => {
                          + "__RELOW WIKI__\n"
                          + "**relow weapons**\n"
                          + "**relow armors**\n"
-                         + "**
+                         + "**relow biomes**\n\n"
                          + "__RELOW LINKS__\n"
                          + "**steam**\n"
                          + "**discord**\n"
