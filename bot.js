@@ -21,7 +21,7 @@ client.on('message', message => {
                          + "**relow key**\n"
                          + "**relow playtest**\n"
                          + "**relow tournament**\n"
-                         +" **relow info**");
+                         + "**relow info**");
   }
   if (message.content === 'relow key' || message.content === 'Relow key') {
     message.channel.send("**RELOW KEY**\n\n"
