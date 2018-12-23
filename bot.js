@@ -8,7 +8,8 @@ client.on('ready', () => {
 
 client.on('guildMemberAdd', member => {
     member.user.send("**WELCOME ON BOARD!**\n\n"
-                     + "if you have any questions write me **relow help** or contact any Relow developer\n\n"
+                     + "write **relow help** if you have any questions\n"
+                     + "if you didn't find it, you should contact any Relow developer\n\n"
                     + ""); 
 });
 
@@ -18,10 +19,23 @@ client.on('message', message => {
   
   if (message.content === 'relow help' || message.content === 'Relow help') {
     message.channel.send("__RELOWBOT FUNCTIONS__\n\n"
+                         + "__INFO__\n"
                          + "**relow key**\n"
                          + "**relow playtest**\n"
-                         + "**relow tournament**\n"
-                         + "**relow info**");
+                         + "**relow signup**\n"
+                         + "**relow date**\n"
+                         + "**relow platform**\n"
+                         + "**relow price**\n\n"
+                         + "__RELOW WORLD CUP__\n"
+                         + "**relow cup**\n\n"
+                         + "__RELOW LINKS__"
+                         + "**steam**"
+                         + "**discord**"
+                         + "**twitter**"
+                         + "**youtubr**"
+                         + "**indieDB**"
+                         + "**gamejolt**"
+                         + "**instagram**");
   }
   if (message.content === 'relow key' || message.content === 'Relow key') {
     message.channel.send("**RELOW KEY**\n\n"
