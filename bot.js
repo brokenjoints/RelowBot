@@ -28,6 +28,10 @@ client.on('message', message => {
                          + "**relow price**\n\n"
                          + "__RELOW WORLD CUP__\n"
                          + "**relow cup**\n\n"
+                         + "__RELOW WIKI__\n"
+                         + "**relow weapons**\n"
+                         + "**relow armors**\n"
+                         + "**
                          + "__RELOW LINKS__\n"
                          + "**steam**\n"
                          + "**discord**\n"
