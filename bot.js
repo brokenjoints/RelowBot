@@ -8,8 +8,11 @@ client.on('ready', () => {
 
 client.on('guildMemberAdd', member => {
     member.user.send("**WELCOME ON BOARD!**\n\n"
-                     + "write **relow help** if you have any questions\n"
-                     + "if you didn't find it, you should contact any Relow developer\n\n"
+                     + "I'm a friendly bot.\n\n"
+                     + "__YOUR OPINION IS IMPORTANT__\n"
+                     + "The Relow team decided to"
+                     + "Write me **relow help**\n"
+                     + "Your support"
                     + ""); 
 });
 
