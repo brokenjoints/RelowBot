@@ -38,7 +38,7 @@ client.on('message', message => {
                          + "**relow biomes**\n\n"
                          + "__RELOW ESPORT__\n"
                          + "**relow esport**\n\n"
-                         + "__RELOW LINKS__\n”
+                         + "__RELOW LINKS__\n"
                          + "**relow links**");
   }
   if (message.content === 'relow key' || message.content === 'Relow key') {
