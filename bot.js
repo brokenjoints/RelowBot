@@ -51,16 +51,16 @@ client.on('message', message => {
                          + "follow the prompts and paste the key code");
   }
   if (message.content === 'relow playtest' || message.content === 'Relow playtest') {
-    message.channel.send("**RELOW PLAYTEST**\n\n");
+    message.channel.send("**WIP**\n\n");
   }
   if (message.content === 'relow tournament' || message.content === 'Relow tournament') {
-    message.channel.send("**RELOW TOURNAMENT**\n\n");
+    message.channel.send("**WIP**\n\n");
   }
   if(message.content === 'relow info' || message.content === 'Relow info') {
-    message.channel.send('work in progress');
+    message.channel.send('WIP');
   }
   if(message.content === 'relow signup' || message.content === 'Relow signup') {
-    message.author.send('work in progress');
+    message.author.send('WIP');
   }
 if (message.content === 'relow join') {
   message.author.send("**WELCOME ON BOARD!**\n\n"
