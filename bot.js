@@ -7,16 +7,13 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-    member.user.send("**WELCOME ON BOARD!**\n\n"
-+ "__DISCORD MEMBER PRIVILEGES__"
-+ " - participate in the playtests"
-+ " - receive special armors and skins"
-+ " - give your contribute to the development"
-+ " - participate in special giveaways"
-+ " - and much more\n\n"
-+ "__QUESTIONS?__\n"
-                     + "write me **relow help**\n"
-+ "_some functions are work in progress (WIP)_"); 
+    member.user.send("_Welcome to the official RELOW discord server! Whether you're here to chat with the community/devs, receive updates or both._"
+
++ "__QUESTIONS?__"
++ "Use the <#484619958395863050> channel."
+
++ "**Have a nice day and invite to support the game!**"
++ "https://discord.gg/bCUvtnz"); 
 });
 
 client.on('message', message => {
@@ -63,16 +60,13 @@ client.on('message', message => {
     message.author.send('WIP');
   }
 if (message.content === 'relow join') {
-  message.author.send("**WELCOME ON BOARD!**\n\n"
-+ "__DISCORD MEMBER PRIVILEGES__"
-+ " - participate in the playtests"
-+ " - receive special armors and skins"
-+ " - give your contribute to the development"
-+ " - participate in special giveaways"
-+ " - and much more\n\n"
-+ "__QUESTIONS?__\n"
-                     + "write me **relow help**\n"
-+ "_some functions are work in progress (WIP)_");
+  message.author.send("_Welcome to the official RELOW discord server! Whether you're here to chat with the community/devs, receive updates or both._"
+
++ "__QUESTIONS?__"
++ "Use the <#484619958395863050> channel."
+
++ "**Have a nice day and invite to support the game!**"
++ "https://discord.gg/bCUvtnz");
 }
 
 });
