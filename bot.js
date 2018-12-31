@@ -7,10 +7,10 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-    member.user.send("_Welcome to the official RELOW discord server! Whether you're here to chat with the community/devs, receive updates or both._\n"
+    member.user.send("_Welcome to the official RELOW discord server! Whether you're here to chat with the community/devs, receive updates or both._\n\n"
 
 + "__QUESTIONS?__\n"
-+ "Use the <#484619958395863050> channel.\n"
++ "Use the <#484619958395863050> channel.\n\n"
 
 + "**Have a nice day and invite to support the game!**\n"
 + "https://discord.gg/bCUvtnz"); 
@@ -60,10 +60,10 @@ client.on('message', message => {
     message.author.send('WIP');
   }
 if (message.content === 'relow join') {
-  message.author.send("_Welcome to the official RELOW discord server! Whether you're here to chat with the community/devs, receive updates or both._\n"
+  message.author.send("_Welcome to the official RELOW discord server! Whether you're here to chat with the community/devs, receive updates or both._\n\n"
 
 + "__QUESTIONS?__\n"
-+ "Use the <#484619958395863050> channel.\n"
++ "Use the <#484619958395863050> channel.\n\n"
 
 + "**Have a nice day and invite to support the game!**\n"
 + "https://discord.gg/bCUvtnz");
