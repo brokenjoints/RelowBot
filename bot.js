@@ -12,7 +12,7 @@ client.on('guildMemberAdd', member => {
 + "__QUESTIONS?__\n"
 + "Use the <#484619958395863050> channel.\n\n"
                      
-+ "Follow the development also on Twitter and YouTube\n"
++ "**Follow the development also on Twitter and YouTube**\n"
 + "<https://twitter.com/brokenjoints_>\n"
 + "<https://www.youtube.com/channel/UCtJGCNnXi0KGdRtvN_QBITQ>\n\n"
                      
