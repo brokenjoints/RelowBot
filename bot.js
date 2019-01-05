@@ -31,7 +31,33 @@ client.on('message', message => {
     message.author.send('work in progress');
   }
   if (message.author.id == '441681903481782294' && message.channel.id == '522667266454847488') {
+    message.react("😍")
+    .then(reaction => console.log(typeof reaction));
+    message.react("❤️")
+    .then(reaction => console.log(typeof reaction));
+    message.react("😱")
+    .then(reaction => console.log(typeof reaction));
     message.react(client.emojis.get("485732441567526914"))
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("485732441676578816"))
+    .then(reaction => console.log(typeof reaction));
+    message.react("🔥")
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("496682914340405248"))
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("511642863566585868"))
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("511642863172321280"))
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("485732441345228805"))
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("511642863172321280"))
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("511642863759523867"))
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("496682913492893697"))
+    .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("511642863508127757"))
     .then(reaction => console.log(typeof reaction));
       }
   
