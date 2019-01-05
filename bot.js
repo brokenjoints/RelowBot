@@ -30,6 +30,11 @@ client.on('message', message => {
   if(message.content === 'relow signup' || message.content === 'Relow signup') {
     message.author.send('work in progress');
   }
+  if (message.author.id == '441681903481782294' && message.channel.id == '522667266454847488') {
+      message.react(":CatDance:");
+      }
+  
+  
 if (message.content === 'relow join') {
   message.author.send("_Welcome to the official RELOW discord server! Whether you're here to chat with the community/devs, receive updates or both._\n\n"
 
