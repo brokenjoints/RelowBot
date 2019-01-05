@@ -32,7 +32,6 @@ client.on('message', message => {
   }
   if (message.author.id == '441681903481782294') {
       message.react(message.guild.emojis.name(':AwwEyes:'));
-    message.react(":AwwEyes:");
       }
   
   
