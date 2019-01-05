@@ -32,6 +32,7 @@ client.on('message', message => {
   }
   if (message.author.id == '441681903481782294' && message.channel.id == '522667266454847488') {
       message.react(":CatDance:");
+    message.react(":AwwEyes:");
       }
   
   
