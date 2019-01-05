@@ -30,8 +30,8 @@ client.on('message', message => {
   if(message.content === 'relow signup' || message.content === 'Relow signup') {
     message.author.send('work in progress');
   }
-  if (message.author.id == '441681903481782294') {
-      message.react(message.guild.emojis.name(':AwwEyes:'));
+  if (message.author.id == '441681903481782294' && message.channel.id == '522667266454847488') {
+      message.channel.send("works in private");
       }
   
   
