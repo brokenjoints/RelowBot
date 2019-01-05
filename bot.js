@@ -31,7 +31,7 @@ client.on('message', message => {
     message.author.send('work in progress');
   }
   if (message.author.id == '441681903481782294' && message.channel.id == '522667266454847488') {
-      message.channel.send("works in private");
+      message.react(":heart_eyes:");
       }
   
   
