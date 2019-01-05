@@ -41,9 +41,9 @@ if (message.content === 'relow join') {
 + "__QUESTIONS?__\n"
 + "Use the <#484619958395863050> channel.\n\n"
                      
-+ "Follow the development also on Twitter and YouTube\n"
-+ "https://twitter.com/brokenjoints_\n"
-+ "https://www.youtube.com/channel/UCtJGCNnXi0KGdRtvN_QBITQ\nn"
++ "**Follow the development also on Twitter and YouTube**\n"
++ "<https://twitter.com/brokenjoints_>\n"
++ "<https://www.youtube.com/channel/UCtJGCNnXi0KGdRtvN_QBITQ>\n\n"
                      
 + "**Have a nice day and invite to support the game!**\n"
 + "https://discord.gg/bCUvtnz");
