@@ -30,7 +30,7 @@ client.on('message', message => {
   if(message.content === 'relow signup' || message.content === 'Relow signup') {
     message.author.send('work in progress');
   }
-  if (message.author.id == '441681903481782294' && (message.channel.id == '522667266454847488' || message.channel.id == '531074059904221184' || message.channel.id == '521600711491059712' || message.channel.id == '526715633803722753' || message.channel.id == '526422803692650497' || message.channel.id == '526423137512849408')) {
+  if (message.author.id == '441681903481782294' && (message.channel.id == '522667266454847488' || message.channel.id == '531074059904221184' || message.channel.id == '521600711491059712' || message.channel.id == '526715633803722753' || message.channel.id == '526423137512849408')) {
     message.react("😍")
     .then(reaction => console.log(typeof reaction));
     message.react("❤️")
