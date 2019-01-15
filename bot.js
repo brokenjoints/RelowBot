@@ -59,6 +59,8 @@ client.on('message', message => {
     .then(reaction => console.log(typeof reaction));
     message.react(client.emojis.get("511642863508127757"))
     .then(reaction => console.log(typeof reaction));
+    message.react(client.emojis.get("534753111034560512"))
+    .then(reaction => console.log(typeof reaction));
       }
   
   
