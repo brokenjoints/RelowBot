@@ -37,9 +37,12 @@ client.on('message', message => {
   
   if (message.content === 'relow screenshot' || message.content === 'Relow screenshot') {
     const rando_imgs = [
-'https://media.giphy.com/media/CZpro4AZHs436/giphy.gif',
-'https://media.giphy.com/media/CZpro4AZHs436/giphy2.gif',
-'https://media.giphy.com/media/CZpro4AZHs436/giphy3.gif',
+'http://imgur.com/LLx3YWa',
+'http://imgur.com/0PHMVhl',
+'http://imgur.com/sR9ji1k',
+      'http://imgur.com/9J68liG',
+      'http://imgur.com/7T3oeNc',
+      'http://imgur.com/JFhYaZm',
 ]
     message.channel.send("**RELOW RANDOM SCREENSHOT**\n" + rando_imgs[Math.floor(Math.random() * rando_imgs.length)]);
   } 
