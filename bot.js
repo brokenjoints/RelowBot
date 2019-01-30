@@ -36,7 +36,15 @@ client.on('message', message => {
   }
   
   if (message.content === 'relow screenshot' || message.content === 'Relow screenshot') {
-    message.channel.send("**RELOW RANDOM SCREENSHOT** https://www.brokenjoints.com/wp-content/uploads/2019/01/Desktop-Screenshot-2019.01.18-16.58.05.09.png");
+    var msg1 = Array(5); 
+		msg1[1] = "https://imgur.com/LLx3YWa";
+	  msg1[2] = "https://imgur.com/0PHMVhl";
+		msg1[3] = "https://imgur.com/sR9ji1k";
+		msg1[4] = "https://imgur.com/9J68liG";
+		msg1[5] = "https://imgur.com/7T3oeNc"
+		msg1[6] = "https://imgur.com/JFhYaZm" 
+    var x = getRandomInt(0, 7);
+    message.channel.send("**RELOW RANDOM SCREENSHOT**\n" + msg1[x]);
   } 
   if (message.author.id == '441681903481782294' && (message.channel.id == '522667266454847488' || message.channel.id == '531074059904221184' || message.channel.id == '521600711491059712' || message.channel.id == '526715633803722753' || message.channel.id == '526423137512849408')) {
     message.react("😍")
