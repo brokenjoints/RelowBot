@@ -25,7 +25,11 @@ client.on('message', message => {
   if (message.author.bot) return undefined;
   
   if (message.content === 'relow help' || message.content === 'Relow help') {
-    message.channel.send("work in progress");
+    message.channel.send("**RELOW HELP**\n\n"
+                         
+                        + "__RELOW BOT FUNCTIONS__\n"
+                        + "**relow signup**\n"
+                        + "**relow screenshot**");
   }  
   if(message.content === 'relow signup' || message.content === 'Relow signup') {
     message.author.send('work in progress');
