@@ -34,15 +34,15 @@ client.on('message', message => {
                         + "**relow screenshot**");
   }  
   if(message.content === 'relow signup' || message.content === 'Relow signup') {
-    
+    if (key === totalKey) {
+      message.channel.send('**unfortunately all the keys have been taken**\nthere will be a new giveaway very soon');
+    }
     if (key < totalKey) {
       key++;
     message.author.send('**RELOW ALPHA SIGNUP**\n\n__registered correctly__\n\n**WE WILL SEND YOU A KEY AS SOON AS POSSIBLE**');
     message.channel.send('**registered correctly**\n__' + (totalKey - key) + ' keys left__');
     }
-    if (key === totalKey) {
-      message.channel.send('**unfortunately all the keys have been taken**\nthere will be a new giveaway very soon');
-    }
+    
   }
   
   if (message.content === 'relow screenshot' || message.content === 'Relow screenshot') {
