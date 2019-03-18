@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+var key = 0;
+var totalKey = 5;
 
 client.on('ready', () => {
   console.log('I am ready!');
@@ -32,7 +34,8 @@ client.on('message', message => {
                         + "**relow screenshot**");
   }  
   if(message.content === 'relow signup' || message.content === 'Relow signup') {
-    message.author.send('work in progress');
+    key++;
+    message.author.send('**registered correctly**\n' + (totalKey - key) + ' keys left');
   }
   
   if (message.content === 'relow screenshot' || message.content === 'Relow screenshot') {
