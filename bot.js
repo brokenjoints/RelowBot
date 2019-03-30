@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var key = 0;
+var key;
 var totalKey = 5;
 
 client.on('ready', () => {
