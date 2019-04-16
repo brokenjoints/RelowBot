@@ -10,7 +10,7 @@ client.on('guildMemberAdd', member => {
     member.user.send("**WELCOME TO THE OFFICIAL RELOW DISCORD SERVER!**\n\n"
 
 + "__ALPHA TESTING__\n"
-+ "- To receive an alpha key write __relow key__ in the <#528232787514490890> channel when there's a key giveaway in progress.\n
++ "- To receive an alpha key write __relow key__ in the <#528232787514490890> channel when there's a key giveaway in progress.\n"
 + "- Playtests will be announced here <#521600711491059712>\n\n"
                      
 + "**FOLLOW THE DEVELOPMENT**\n"
