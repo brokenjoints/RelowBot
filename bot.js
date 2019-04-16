@@ -9,13 +9,14 @@ client.on('ready', () => {
 client.on('guildMemberAdd', member => {
     member.user.send("**WELCOME TO THE OFFICIAL RELOW DISCORD SERVER!**\n\n"
 
-+ "__ALPHA TESTING__\n"
++ "**ALPHA TESTING**\n"
 + "- To receive an alpha key write __relow key__ in the <#528232787514490890> channel when there's a key giveaway in progress.\n"
 + "- Playtests will be announced here <#521600711491059712>\n\n"
                      
 + "**FOLLOW THE DEVELOPMENT**\n"
-+ "<https://twitter.com/brokenjoints_>\n"
-+ "<https://www.youtube.com/channel/UCtJGCNnXi0KGdRtvN_QBITQ>\n\n"
++ "<https://twitter.com/relowgame>\n"
++ "<https://www.youtube.com/channel/UCtJGCNnXi0KGdRtvN_QBITQ>\n"
++ "<https://instagram.com/relowgame>\n\n"
                      
 + "**INVITE TO SUPPORT THE GAME**\n"
 + "https://discord.gg/bCUvtnz \n\n"
