@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var x;
+var x = 0;
 
 client.on('ready', () => {
   console.log('I am ready!');
@@ -35,6 +35,7 @@ client.on('message', message => {
   
   if (message.content === 'relow join') {  
 x+=1;
+message.channel.send("" + x);
     message.channel.send("**WELCOME TO THE OFFICIAL RELOW DISCORD SERVER!**\n\n"
 
 + "__ALPHA TESTING__\n"
