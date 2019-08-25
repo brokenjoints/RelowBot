@@ -16,7 +16,7 @@ client.on('message', message => {
   
   if ((message.content === 'relow key' || message.content === 'Relow key') && message.channel.id == '528232787514490890') {  
     message.channel.send("");
-    message.author.send("**Congratulations " + message.author.toString() + "!**\n You are now a **playtester.**\n\n__You will receive the alpha key as soon as possible.__");
+    message.author.send("**Congratulations " + message.author.toString() + "!**\n You are now a **playtester.**\n\nYou will receive the alpha key as soon as possible.");
   }
   
   });
